@@ -1,7 +1,7 @@
 /*==============================================================================
-$Id: minset.h,v 1.1 2008/02/05 17:17:32 jkleinj Exp $
 minset.h : program for database subsetting
-(C) 2006-2007 Alsseandro Pandini and Jens Kleinjung
+(C) 2006-2017 Jens Kleinjung
+(C) 2006-2007 Alesseandro Pandini
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

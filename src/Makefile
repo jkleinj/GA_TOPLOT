@@ -104,10 +104,9 @@ CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
-am_minset_OBJECTS = alphabet.$(OBJEXT) cath.$(OBJEXT) ga.$(OBJEXT) \
-	getseqs.$(OBJEXT) homstrad.$(OBJEXT) huffman.$(OBJEXT) \
-	lz.$(OBJEXT) minset.$(OBJEXT) parse_args.$(OBJEXT) \
-	suffix_tree.$(OBJEXT)
+am_minset_OBJECTS = alphabet.$(OBJEXT) ga.$(OBJEXT) getseqs.$(OBJEXT) \
+	huffman.$(OBJEXT) lz.$(OBJEXT) minset.$(OBJEXT) \
+	parse_args.$(OBJEXT) suffix_tree.$(OBJEXT)
 minset_OBJECTS = $(am_minset_OBJECTS)
 am__DEPENDENCIES_1 =
 minset_DEPENDENCIES = $(am__DEPENDENCIES_1)
@@ -263,8 +262,8 @@ top_srcdir = ..
 AM_CPPFLAGS = $(INTI_CFLAGS)
 AM_CFLAGS = -Wall
 minset_SOURCES = \
-alphabet.c alphabet.h cath.c ga.c ga.h gapar.h getseqs.c getseqs.h \
-homstrad.c huffman.c huffman.h lz.c lz.h minset.c minset.h \
+alphabet.c alphabet.h ga.c ga.h gapar.h getseqs.c getseqs.h \
+huffman.c huffman.h lz.c lz.h minset.c minset.h \
 minsetpar.h parse_args.c parse_args.h suffix_tree.c suffix_tree.h
 
 minset_LDADD = $(INTI_LIBS)
@@ -374,10 +373,8 @@ distclean-compile:
 	-rm -f *.tab.c
 
 include ./$(DEPDIR)/alphabet.Po
-include ./$(DEPDIR)/cath.Po
 include ./$(DEPDIR)/ga.Po
 include ./$(DEPDIR)/getseqs.Po
-include ./$(DEPDIR)/homstrad.Po
 include ./$(DEPDIR)/huffman.Po
 include ./$(DEPDIR)/lz.Po
 include ./$(DEPDIR)/minset.Po

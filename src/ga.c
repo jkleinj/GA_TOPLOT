@@ -1,7 +1,6 @@
 /*===============================================================================
-$Id: ga.c,v 1.1 2008/02/05 17:17:32 jkleinj Exp $
 ga : Genetic Algorithm
-(C) 2003-2007 Jens Kleinjung
+(C) 2003-2017 Jens Kleinjung
 (C) 2006-2007 Alessandro Pandini
 
 Usage: The MANUAL gives a brief description of the program.

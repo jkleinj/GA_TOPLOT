@@ -1,7 +1,7 @@
 /*==============================================================================
-$Id: alphabet.h,v 1.1 2008/02/05 17:17:32 jkleinj Exp $
 alphabet.c : alphabet assignment routine
-(C) 2006-2007 Jens Kleinjung and Alessandro Pandini
+(C) 2006-2017 Jens Kleinjung
+(C) 2006-2007 Alessandro Pandini
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

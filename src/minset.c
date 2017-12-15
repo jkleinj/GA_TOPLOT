@@ -1,8 +1,7 @@
 /*=============================================================================
-$Id: minset.c,v 1.1 2008/02/05 17:17:32 jkleinj Exp $
 minset.c : a method for database subsetting
+(C) 2006-2017 Jens Kleinjung
 (C) 2006-2007 Alessandro Pandini
-(C) 2006-2007 Jens Kleinjung
 
 References:
     - A. Pandini, L. Bonati, F. Fraternali and J. Kleinjung
@@ -106,7 +105,7 @@ float word_entropy(char *ref_string, char *search_string, int *p_nsymbols, int *
     unsigned int i = 0;
     char *sub_pc; /* pointer to char for search substring */
     unsigned int n_all = 0; /* total number of substrings */
-    DBL_WORD position; /* position of search (sub)string in reference string */
+    //DBL_WORD position; /* position of search (sub)string in reference string */
     float entropy;
 
     ref_len = (DBL_WORD)strlen(ref_string); /* the string to become the ST */
@@ -139,7 +138,7 @@ float word_entropy(char *ref_string, char *search_string, int *p_nsymbols, int *
         ++ n_all; /* count all subSetSequences */
 
         /* search substring in suffix tree */
-        position = ST_FindSubstring(tree, sub_pc, sub_len);
+        //position = ST_FindSubstring(tree, sub_pc, sub_len);
 
         ++ i; /* increment pointer position */
     }

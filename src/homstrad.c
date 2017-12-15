@@ -1,6 +1,6 @@
-    FILE *homstradlist;
-    char *homstradlistname = "homstrad.dist.list";
-    char *homstrad = "/home/jkleinj/data/homstrad_1104/";
+FILE *homstradlist;
+char *homstradlistname = "homstrad.dist.list";
+char *homstrad = "/home/jkleinj/data/homstrad_1104/";
 						sprintf(pdb0filename, "%s%s/%s.0.pdb",
 							homstrad, fam.family[f], fam.family[f]);
 						sprintf(pdb1filename, "%s%s/%s.1.pdb",
